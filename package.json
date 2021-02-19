@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-plugin-datadog-rum",
+  "description": "Gatsby plugin to add Datadog Real User Monitoring (RUM) to your site.",
+  "version": "1.0.0",
+  "author": "Niklas Nordlund <niklas@digitalvenues.se>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklasnordlund/gatsby-plugin-datadog-rum.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "datadog",
+    "rum"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "@datadog/browser-rum": "latest"
+  },
+  "bugs": {
+    "url": "https://github.com/niklasnordlund/gatsby-plugin-datadog-rum/issues"
+  },
+  "homepage": "https://github.com/niklasnordlund/gatsby-plugin-datadog-rum#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
