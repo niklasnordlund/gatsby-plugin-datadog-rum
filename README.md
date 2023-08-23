@@ -19,7 +19,7 @@ plugins: [
       applicationId: 'YOUR_APP_ID',
       clientToken: 'YOUR_CLIENT_TOKEN',
       site: 'datadoghq.com',
-      sampleRate: 100,
+      sessionSampleRate: 100,
       enabled: !IS_DEV,
     }
   }
